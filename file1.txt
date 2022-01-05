@@ -18,3 +18,9 @@ $ git status :- to see the status of the repo . It tells about which branch has 
 and where the HEAD lies
 $ git commit  :- to save the changes made in the staging area before pushing the file
 $ git pull :- to pull the latest from the remote/github
+$ git pull  :- to pull the latest from the remote
+$ git clone :-  to download the repo in the system
+$ git rm --cached  <file name> :- to remove file from the staging area
+$ git restore --staged <file name> :- to unstage file
+$ git add .  :- to add all files
+$ git add *.html :- to add files of .html type only
