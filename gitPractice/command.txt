@@ -1,0 +1,155 @@
+    1  ls
+    2  \cd root
+    3  cd ..
+    4  ls
+    5  dpkg -c
+    6  dpkg -c project-on-time_1.0.44_amd64\ \(1\).deb
+    7  dpkg -i project-on-time_1.0.44_amd64\ \(1\).deb
+    8  sudo dpkg -i project-on-time_1.0.44_amd64\ \(1\).deb
+    9  apt-get install git
+   10  sudo apt-get install git
+   11  sudo apt-get install git-core
+   12  ps aux | grep -i apt
+   13  ps aux -H | grep -i apt
+   14  ps aux -h | grep -i apt
+   15  ps --help
+   16  ps --help list
+   17  ps --help
+   18  ps --help output
+   19  ps --help simple
+   20  ps aux | grep -i apt
+   21  clear all
+   22  clear
+   23  git --version
+   24  apt list --installed
+   25  apt list --installed | grep git
+   26  apt list apache
+   27  git config --global user.name "pranesh prashar"
+   28  git config --global user.email "praneshprashar25@gmail.com"
+   29  git config --global branch.autosetuprebase always
+   30  git config --global color.ui true
+   31  git config --global color.status auto
+   32  git config --global color.branch auto
+   33  git config --list
+   34  sudo add-apt-repository ppa:lutris-team/lutris
+   35  sudo apt-get update
+   36  sudo apt install lutris
+   37  apt --installed
+   38  dpkg -l
+   39  dpkg -l | grep lutris
+   40  dpkg -l | grep lutris | sudo dpkg -r lutris
+   41  dpkg -l | grep lutris
+   42  sudo dpkg -P lutris
+   43  snap list
+   44  sudo apt install lutris
+   45  sudo apt-get update
+   46  lutris
+   47  touch token
+   48  rm token
+   49  ls
+   50  touch token.txt
+   51  token
+   52  token.txt
+   53  mkdir git
+   54  cd git
+   55  git init
+   56  git add README.md
+   57  ls
+   58  ls -l
+   59  sudo apt-get install git'
+   60  sudo apt-get install git
+   61  echo "# Simform_git" >> README.md
+   62  git init
+   63  git add README.md
+   64  git commit -m "first commit"
+   65  git branch -M main
+   66  git remote add origin https://github.com/Pranesh25/Simform_git.git
+   67  git push -u origin main
+   68  git --config
+   69  git --config -list
+   70  git --config --help
+   71  git config --list
+   72  git confg --global user.name "pranesh25"
+   73  git config --global user.name "pranesh25"
+   74  git config --global user.email "praneshprashar25@gmail.com"
+   75  git config --list
+   76  git push -u origin main
+   77  clear
+   78  gti add fil1.txt
+   79  clear
+   80  git add fil1.txt
+   81  git add fil1
+   82  touch file1.txt
+   83  file.txt
+   84  /file.txt
+   85  cat > file.txt
+   86  ls
+   87  rm file.txt
+   88  ls
+   89  cat > file1.txt
+   90  cat file1.txt
+   91  git add file1.txt
+   92  cat >> fil1.txt
+   93  cat file1.txt
+   94  cat  fil1.txt
+   95  rm fil1.txt
+   96  cat >> file1.txt
+   97  cat file1.txt
+   98  git status
+   99  cat >> file1.txt
+  100  git commit -m " my second commit" file1.txt
+  101  git pull --help
+  102  git pull
+  103  ls
+  104  cat >> file1.txt
+  105  git commit -m "my third commit"
+  106  cat file1.txt
+  107  git push file.txt
+  108  git push file1.txt
+  109  git status
+  110  ls
+  111  ls -la
+  112  ls
+  113  git status
+  114  cat file1.txt
+  115  git add file1.txt
+  116  git status
+  117  git restore --staged fiel.txt
+  118  git push file1.txt
+  119  git status
+  120  git add .
+  121  git status
+  122  cat file1.txt
+  123  git commit -m "my 4th commit" 
+  124  git status
+  125  git push .
+  126  git status
+  127  git add .
+  128  git status
+  129  cat >> file1.txt
+  130  git status
+  131  git add file1.txt
+  132  git status
+  133  git commit
+  134  cd git
+  135  git status
+  136  git add file1.txt
+  137  git commit -m "my 5th commit "
+  138  git status
+  139  git push file1.txt
+  140  git config --list
+  141  git config --global core.editor vim
+  142  git config --global merge.tool vimdiff
+  143  git config --list
+  144  git push file1.txt
+  145  ls
+  146  git push file1
+  147  git remote
+  148  git push -u origin master
+  149  git push
+  150  clear
+  151  history
+  152  ls
+  153  cd ..
+  154  cd git
+  155  history > command.txt
