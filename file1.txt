@@ -17,3 +17,4 @@ $ git add <file name> :- to keep the file in the staging area before pushing or 
 $ git status :- to see the status of the repo . It tells about which branch has which files
 and where the HEAD lies
 $ git commit  :- to save the changes made in the staging area before pushing the file
+$ git pull :- to pull the latest from the remote/github
