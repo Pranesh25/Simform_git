@@ -1,0 +1,18 @@
+hello this is stderr i/o
+0 is std input
+1 is std output
+2 is std error
+
+if the file is not present then the command will display that the file you 
+want to read or write is not present and throw error on display 
+to prevent that we use this method so as it donot display that error 
+and show that error in a specified file or in the same file 
+according to our need
+
+for ex ;- 
+
+let's say we create a file 'my.txt ' and have some content
+
+1 . -> 2>&1 --> here 2 is std error which is sent to std output
+2. 2>error.txt --> here we are sending the error to a specific file name
+3 . &> is used when we simply want to sent the output whatever it is to the file

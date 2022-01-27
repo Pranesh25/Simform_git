@@ -1,0 +1,41 @@
+*/59 * * * *  /bin/echo "croned success at `date` " > /home/praneshprashar/Desktop/simform/crontab12.txt
+
+*/59 * * * * /bin/sh /home/praneshprashar/Desktop/simform/crontab1.sh > /home/praneshprashar/Desktop/simform/crontab1.txt
+
+to view the crontab task we use
+crontab -l
+
+to view the crontab task of a specific user we use
+crontab -l -u where u stands for the specific user
+
+to edit the crontab jobs
+we use 
+crontab - e
+crontab -e
+
+
+sheduling jobs :-
+
+1.  to shedule a job for every minute :-
+
+* * * * * command
+
+but if we specify 
+*/2 it means evey minute 
+
+if we specify 0-10/2
+it means to run every 2 minute of 0-10 minute
+
+2. to schedule a job for twice a day :-
+
+00 11 ,16 * * *
+
+here it mean that the job will run for all the time it is specified
+
+3. to schedule a job for weekends only
+
+* * * * 6-7
+
+there are also monthly/daily/yearly etc.folders in /etc/crontab folders where
+we can specify the type of job and time according to our need without using 
+these syntax
