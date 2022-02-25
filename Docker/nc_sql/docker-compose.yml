@@ -1,0 +1,27 @@
+version: '3'
+volumes:
+  nextcloud:
+  db:
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    volumes:
+       - db:/var/lib/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: prashar
+        MYSQL_PASSWORD: toor
+        MYSQL_DATABASE: nextcloud
+        MYSQL_USER: pranesh
+
+  app:
+    image: nextcloud:17-apache
+    ports:
+      - 8080:80
+    depends_on:
+      - db
+    volumes:
+      - nextcloud:/var/www/html
+    restart: always
+

@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  sql_os:
+    image: mysql:5.7
+    volumes:
+      - mysql_wp:/var/lib/mysql
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_USER: test1
+      MYSQL_PASSWORD: 4321
+      MYSQL_DATABASE: testdb 
+
+  wpos:
+    image: wordpress:5.1.1-php7.3-apache
+    restart: always
+    depends_on:
+      - sql_os
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: sql_os
+      WORDPRESS_DB_USER: test1
+      WORDPRESS_DB_PASSWORD: 4321
+      WORDPRESS_DB_NAME: testdb
+    volumes:
+      - wordpress1:/var/www/html
+
+volumes:
+  wordpress1:
+  mysql_wp:

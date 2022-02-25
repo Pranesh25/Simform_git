@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web_angular:
+    build: angular
+    ports:
+      - 4200:4200
+    volumes:
+      - ./angular:/project
+      - /project/node_modules
