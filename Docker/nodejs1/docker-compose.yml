@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  appjs:
+    build: .
+    ports:
+      - 5000:3000
+    volumes:
+      - nodeapp:/logs/
+volumes:
+  nodeapp:
