@@ -1,5 +1,5 @@
-const express = require('express')
 require('dotenv').config();
+const express = require('express')
 const app = express();
 
 app.get('/healthcheck', (req, res)=>{
@@ -10,5 +10,5 @@ app.get('/healthcheck', (req, res)=>{
 })
 
 app.listen(3000, () =>{
-    console.log("Server is running at port 5000...");
+    console.log("Server is running...");
 })
